@@ -1,6 +1,16 @@
 // API
 const API_ENDPOINT = 'https://yesno.wtf/api';
 
+fetch(API_ENDPOINT,{
+    try{
+    method: `GET`
+    .then((response)=>{
+        return response.json();
+    })
+    .catch()
+
+}
+});
 /**
  * STEPS:
  *
